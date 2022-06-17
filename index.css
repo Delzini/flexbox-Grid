@@ -1,0 +1,70 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-size: 15px;
+  display: flex;
+}
+main {
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divcontent {
+  height: 50vh;
+  width: 180px;
+  padding: 35px;
+  margin: 0px;
+  border-top-left-radius: 10px;
+}
+h2 {
+  color: hsl(0, 0%, 95%);
+  margin: 30px 0px;
+  font-family: "Big Shoulders Display", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 700px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-family: "Lexend Deca", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  font-weight: 400px;
+}
+img {
+  width: 50px;
+  height: auto;
+}
+.btn {
+  margin-top: 30px;
+  height: 35px;
+  width: 100px;
+  border-radius: 15px;
+  border: 0px;
+  color: hsl(0, 0%, 95%);
+  border: 1px hsl(0, 0%, 95%) solid;
+}
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (max-width: 375px) {
+  main {
+    margin: auto;
+    width: 80%;
+    height: 150vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
